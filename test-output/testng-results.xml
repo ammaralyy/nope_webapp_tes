@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-02T13:38:33 EET" name="Shopping Regression Suite" finished-at="2021-12-02T13:38:44 EET" duration-ms="10654">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-12-02T13:38:33 EET" name="Regression Test" finished-at="2021-12-02T13:38:44 EET" duration-ms="10654">
+      <class name="tests.UserRegisterationUsingDDTAndFakerTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:26 EET" name="startDriver" finished-at="2021-12-02T13:38:33 EET" duration-ms="6895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:33 EET" name="setUpClass" finished-at="2021-12-02T13:38:34 EET" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64ec1459]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="userRegisteredSuccessfully()[pri:1, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:34 EET" name="userRegisteredSuccessfully" finished-at="2021-12-02T13:38:38 EET" duration-ms="4626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisteredSuccessfully -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:38 EET" name="captureScreenshotOnFailure" finished-at="2021-12-02T13:38:38 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisteredSuccessfully status=SUCCESS method=UserRegisterationUsingDDTAndFakerTest.userRegisteredSuccessfully()[pri:1, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="userRegisterLogout()[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:38 EET" name="userRegisterLogout" finished-at="2021-12-02T13:38:42 EET" depends-on-methods="tests.UserRegisterationUsingDDTAndFakerTest.userRegisteredSuccessfully" duration-ms="3612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterLogout -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:42 EET" name="captureScreenshotOnFailure" finished-at="2021-12-02T13:38:42 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterLogout status=SUCCESS method=UserRegisterationUsingDDTAndFakerTest.userRegisterLogout()[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="userRegisterLogin()[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:42 EET" name="userRegisterLogin" finished-at="2021-12-02T13:38:44 EET" depends-on-methods="tests.UserRegisterationUsingDDTAndFakerTest.userRegisterLogout" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegisterLogin -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:44 EET" name="captureScreenshotOnFailure" finished-at="2021-12-02T13:38:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userRegisterLogin status=SUCCESS method=UserRegisterationUsingDDTAndFakerTest.userRegisterLogin()[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:44 EET" name="tearDownClass" finished-at="2021-12-02T13:38:44 EET" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:tests.UserRegisterationUsingDDTAndFakerTest@33956d1a]" started-at="2021-12-02T13:38:44 EET" name="stopdriver" finished-at="2021-12-02T13:38:45 EET" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- tests.UserRegisterationUsingDDTAndFakerTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Shopping Regression Suite -->
+</testng-results>
